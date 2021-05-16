@@ -31,7 +31,7 @@ function draw() {
   scores2();
   centerLine(16, 3, 22);
   playerBars(sizeY/43, 0.4);
-  ballMovement(kleiner(sizeX, sizeY)/88, 22, 3); //20, 18, 22 ; width1 10
+  ballMovement(kleiner(sizeX, sizeY)/88, 22, 2); //20, 18, 22 ; width1 10
 }
 //rectY[1]=ballY-rectHeight/2+random(-rectHeight/2-rectHeight/2/10, rectHeight/2+rectHeight/2/10);
 let newCompSpeed=true;
